@@ -88,5 +88,6 @@ class SnakeGame:
 
 # Create the Tkinter window
 root = tk.Tk()
+root.resizable(False, False)
 snake_game = SnakeGame(root)
 root.mainloop()
